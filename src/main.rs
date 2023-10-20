@@ -37,7 +37,7 @@ fn main() -> std::io::Result<()>{
     let answer : [[i8; 4]; 4] = [[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12], [13, 14, 15, -1]];
     let mut board : Vec<Vec<i8>> = vec![vec![1, 2, 3, 4], vec![5, 6, 7, 8], vec![9, 10, 11, 12], vec![13, 14, 15, -1]];
     let mut cursor  = (3, 3);
-    println!("board = {:?}", board);
+    // println!("board = {:?}", board);
     // mat_swap_pop_back(&mut board, 0, 0, 3, 3);
 
     //乱数生成
